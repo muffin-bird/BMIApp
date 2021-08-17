@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C27D6A726CB71270025D46D /* body-mass (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 8C27D6A626CB71260025D46D /* body-mass (1).png */; };
 		8C59671C26CB499700DD3EB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C59671B26CB499700DD3EB5 /* AppDelegate.swift */; };
 		8C59671E26CB499700DD3EB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C59671D26CB499700DD3EB5 /* SceneDelegate.swift */; };
 		8C59672026CB499700DD3EB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C59671F26CB499700DD3EB5 /* ViewController.swift */; };
 		8C59672326CB499700DD3EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C59672126CB499700DD3EB5 /* Main.storyboard */; };
 		8C59672526CB499800DD3EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C59672426CB499800DD3EB5 /* Assets.xcassets */; };
 		8C59672826CB499800DD3EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C59672626CB499800DD3EB5 /* LaunchScreen.storyboard */; };
+		8CF0E22E26CB92A800C3760B /* bmi.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF0E22D26CB92A800C3760B /* bmi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C27D6A626CB71260025D46D /* body-mass (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "body-mass (1).png"; sourceTree = "<group>"; };
 		8C59671826CB499700DD3EB5 /* BMIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C59671B26CB499700DD3EB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C59671D26CB499700DD3EB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +25,7 @@
 		8C59672426CB499800DD3EB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C59672726CB499800DD3EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C59672926CB499800DD3EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF0E22D26CB92A800C3760B /* bmi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,15 +39,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8C27D6A526CB71260025D46D /* BMI_Image */ = {
-			isa = PBXGroup;
-			children = (
-				8C27D6A626CB71260025D46D /* body-mass (1).png */,
-			);
-			name = BMI_Image;
-			path = ../../../../Downloads/BMI_Image;
-			sourceTree = "<group>";
-		};
 		8C59670F26CB499700DD3EB5 = {
 			isa = PBXGroup;
 			children = (
@@ -74,9 +65,18 @@
 				8C59672426CB499800DD3EB5 /* Assets.xcassets */,
 				8C59672626CB499800DD3EB5 /* LaunchScreen.storyboard */,
 				8C59672926CB499800DD3EB5 /* Info.plist */,
-				8C27D6A526CB71260025D46D /* BMI_Image */,
+				8CF0E22C26CB929700C3760B /* BMI.Image */,
 			);
 			path = BMIApp;
+			sourceTree = "<group>";
+		};
+		8CF0E22C26CB929700C3760B /* BMI.Image */ = {
+			isa = PBXGroup;
+			children = (
+				8CF0E22D26CB92A800C3760B /* bmi.png */,
+			);
+			name = BMI.Image;
+			path = ../../../Image/BMI.Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +137,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C59672826CB499800DD3EB5 /* LaunchScreen.storyboard in Resources */,
-				8C27D6A726CB71270025D46D /* body-mass (1).png in Resources */,
 				8C59672526CB499800DD3EB5 /* Assets.xcassets in Resources */,
+				8CF0E22E26CB92A800C3760B /* bmi.png in Resources */,
 				8C59672326CB499700DD3EB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
